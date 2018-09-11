@@ -66031,6 +66031,27 @@
         ]
       ],
       "terms_text": "Urząd Miasta Zabrza"
+    },
+    {
+      "id": "Nav Map",
+      "name": "Nav Map",
+      "type": "tms",
+      "template": "https://{switch:a,b,c,d}.tiles.mapbox.com/styles/v1/devseed/cjly5lga1572b2sp7o5xsrb4w/tiles/256/{zoom}/{x}/{y}?access_token=pk.eyJ1IjoiZGV2c2VlZCIsImEiOiJnUi1mbkVvIn0.018aLhX0Mb0tdtaT2QNe2Q",
+      "projection": "EPSG:4326",
+      "endDate": "2018-09-10T00:00:00.000Z",
+      "startDate": "2020-09-19T00:00:00.000Z",
+      "zoomExtent": [0, 23],
+      "polygon": [
+        [
+          [-105.64004611364781,39.26735185248765],
+					[-104.48586111478893,39.26735185248765],
+					[-104.48586111478893,40.42063560580669],
+					[-105.64004611364781,40.42063560580669],
+					[-105.64004611364781,39.26735185248765]
+        ]
+      ],
+      "terms_text": "Nav Map",
+      "overlay": true
     }
   ]
 }
